@@ -8,7 +8,7 @@ import { VscColorMode } from "react-icons/vsc";
 import { AiOutlineMessage, AiOutlineShoppingCart, AiOutlineClockCircle, AiFillWallet } from "react-icons/ai";
 
 import logoImg from '../images/Logo.png';
-import { NavLink } from 'react-router-dom';
+
 
 
 function Navbar() {
@@ -19,13 +19,13 @@ function Navbar() {
             <Container>
             <ul>
             
-            <NavLink to="/properties"><li style={{listStyleType:'none',color:'white'}}><AiOutlineAppstore /></li></NavLink>
+            <li style={{listStyleType:'none',color:'white'}}><AiOutlineAppstore /></li>
 
             <br/>
             
-            <NavLink to="/details"><li style={{listStyleType:'none',color:'white'}}><AiOutlineMessage /></li></NavLink><br/>
+           <li style={{listStyleType:'none',color:'white'}}><AiOutlineMessage /></li><br/>
            
-            <NavLink to="/bid"><li style={{listStyleType:'none',color:'white'}}><AiOutlineAppstore /> </li></NavLink><br/>
+            <li style={{listStyleType:'none',color:'white'}}><AiOutlineAppstore /> </li><br/>
             <li style={{listStyleType:'none',color:'white'}}><AiOutlineMessage /></li><br/>
             <li style={{listStyleType:'none',color:'white'}}><AiOutlineShoppingCart /></li><br/>
             <li style={{listStyleType:'none',color:'white'}}><GiElephant /></li><br/>
