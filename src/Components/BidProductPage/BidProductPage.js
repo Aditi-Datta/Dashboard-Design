@@ -3,7 +3,7 @@ import { Button, Col, Container, Row } from 'react-bootstrap'
 import MiddlePart from './MiddlePart';
 import backgroundImg from '../../images/bg-img.png'
 import ThirdPart from './ThirdPart';
-import Navbar from './Navbar';
+import Navbar from '../Navbar';
 
 function BidProductPage() {
    

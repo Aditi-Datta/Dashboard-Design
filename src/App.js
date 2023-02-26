@@ -13,11 +13,23 @@ import BidProductPage from './Components/BidProductPage/BidProductPage';
 function App() {
   return (
     <div>
+      <Router>
+        <Switch>
+          <Route exact path="/">
+            <Properties></Properties>
+          </Route>
+          <Route path="/properties">
+            <Properties></Properties>
+          </Route>
+          <Route path="/details">
+            <DetailsPageHome></DetailsPageHome>
+          </Route>
+          <Route path="/bid">
+            <BidProductPage></BidProductPage>
+          </Route>
 
-      <Properties></Properties>
-      <DetailsPageHome></DetailsPageHome>
-      <BidProductPage></BidProductPage>
-    
+        </Switch>
+      </Router>
     </div>
   );
 }
